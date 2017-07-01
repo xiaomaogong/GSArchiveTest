@@ -46,6 +46,14 @@ platform :ios do
     # Push the new commit and tag back to your git remote
     push_to_git_remote
 
+    #Upload to Fabric
+    crashlytics(
+    crashlytics_path: "./Pods/Crashlytics/", # path to your Crashlytics submit binary.
+    api_token: "6ebaef954f51da4c59f0d53e6382ede9238cee41",
+    build_secret: "c5b39939cc91af9f1b284cd0047925c056e7834820fb8a3b1b0cab42477b8530",
+    ipa_path: "Sample.ipa"
+    )
+
     # sh "your_script.sh"
     # You can also use other beta testing services here (run `fastlane actions`)
   end
