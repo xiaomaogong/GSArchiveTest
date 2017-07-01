@@ -11,6 +11,8 @@ target 'Sample' do
 #pod 'AsyncDisplayKit', '2.1'
 
 pod 'AsyncDisplayKit', '~> 2.2'
+pod 'Fabric'
+pod 'Crashlytics'
 #pod 'AsyncDisplayKit', :git => 'https://github.com/facebook/AsyncDisplayKit.git', :branch => '2.2'
 #    pod '', :git => "https://github.com/facebook/AsyncDisplayKit.git"
 end
