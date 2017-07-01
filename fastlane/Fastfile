@@ -40,10 +40,10 @@ platform :ios do
     # match(type: "appstore") # more information: https://codesigning.guide
     gym(scheme: "Sample") # Build your app - more options available
     pilot
-    (
-      skip_waiting_for_build_processing: true
-    )
-
+    {
+      skip_waiting_for_build_processing:true
+    }
+    
     # Commit the version bump
     commit_version_bump
     # Push the new commit and tag back to your git remote
