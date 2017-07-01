@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.001446">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.001108">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: cocoapods" time="6.16673">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: xcversion" time="1.1066">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: gym" time="89.947476">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: deliver" time="188.890651">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
